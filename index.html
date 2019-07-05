@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <style type="text/css">
+    
+        .cadre{
+            background-color: burlywood;
+            border: solid;
+            border-radius: 5px 0px;
+        }
+        body{
+            font-size: 20px;
+            background-color:bisque;
+        }
+        img{
+            float: right;
+            height: 150px;
+            width: 150px;
+        }
+        a{
+            text-decoration: none;
+        }
+        strong{
+            color: darkblue;
+        }
+        h1{
+            color: red;
+        }
+        
+        @media screen and (max-width:800px){
+            .responsive{
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+   <div class="cadre">
+    <h1>Julien FAYEULLE</h1>
+    <img src="mountain.jpg" alt="Mountainhome">
+    <p><strong>adresse : </strong>Mountain Peak, California USA</p>
+    <p><strong>Mail: </strong>julian.edouard@gmail.com</p>
+    <p><strong>Phone : </strong>09.18.36.98.74</p>
+    
+    <div class="responsive">
+    <h2>Work history</h2>
+    
+    <ol>
+        <li>Accounting client debts,Texas</li>
+        <li>Web developer formation course, France</li>
+    </ol>
+    <h2>Education</h2>
+    <ul>
+        <li>accountant</li>
+        <li>web developer</li>
+    </ul>
+       </div>
+    <form>
+        
+        <a href="Contact.php"><input type="button" value="Contact"> </a>
+    </form>
+    </div>
+</body>
+</html>
